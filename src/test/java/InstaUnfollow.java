@@ -24,7 +24,7 @@ public class InstaUnfollow {
 		
 		driver.get("http://instagram.com/");
 		Thread.sleep(2000);
-		//provide email or username
+		//provide email or User Name
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("username/email id");
 		//provide password
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("password");

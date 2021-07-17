@@ -34,7 +34,7 @@ public class MultipleFollowInstagram {
 	    driver = new FirefoxDriver(capabilities);
 		driver.get("https://www.instagram.com/");
 		Thread.sleep(2000);
-		//Provide Username
+		//Provide User Name
 		driver.findElement(By.xpath("(//input)[1]")).sendKeys("Username");
 		//Provide Password
 		driver.findElement(By.xpath("(//input)[2]")).sendKeys("Password");

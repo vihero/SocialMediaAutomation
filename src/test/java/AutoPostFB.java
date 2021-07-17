@@ -32,7 +32,7 @@ public class AutoPostFB {
 		driver.findElement(By.xpath("//button[@data-testid='royal_login_button']")).click();
 		Thread.sleep(1000);
 		String[] groups= {"groups numbers"};
-//		
+//		str
 		for(int i=1 ;i<groups.length;i++)
 		{
 			try {
